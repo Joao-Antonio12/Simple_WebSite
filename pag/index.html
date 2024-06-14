@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Git</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .nav-buttons {
+            margin-top: 20px;
+        }
+        .nav-buttons button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .nav-buttons button:hover {
+            background-color: #45a049;
+        }
+        .intro-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://miro.medium.com/v2/resize:fit:1125/0*CpxR8zt1z6vZDorB.png" alt="Git Workflow" class="intro-image">
+    <h1>Como usar o sistema de controle de versões Git</h1>
+    <h2>Introdução</h2>
+    <p>Git é um sistema de controle de versão distribuído usado para rastrear alterações no código-fonte durante o desenvolvimento de software. Ele é projetado para coordenar o trabalho entre programadores, mas pode ser usado para rastrear alterações em qualquer conjunto de arquivos.</p>
+    
+    <h2>Como usar o Git?</h2>
+    <ol>
+        <li><strong>Instalação do Git:</strong> Baixe e instale o Git a partir do site oficial: <a href="https://git-scm.com/" target="_blank">git-scm.com</a>.</li>
+        <li><strong>Configuração Inicial:</strong> Configure seu nome de usuário e email.
+            <pre>
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@example.com"
+            </pre>
+        </li>
+        <li><strong>Iniciar um Repositório:</strong> Crie um novo repositório ou clone um repositório existente.
+            <pre>
+git init  # Para criar um novo repositório
+git clone https://github.com/usuario/repo.git  # Para clonar um repositório existente
+            </pre>
+        </li>
+        <li><strong>Fazer alterações e Comitar:</strong> Adicione arquivos ao repositório e comite suas mudanças.
+            <pre>
+git add arquivo.txt  # Para adicionar um arquivo
+git commit -m "Mensagem de commit"  # Para comitar as mudanças
+            </pre>
+        </li>
+        <li><strong>Enviar para o Repositório Remoto:</strong> Envie suas mudanças para o repositório remoto.
+            <pre>
+git push origin main  # Para enviar para a branch principal
+            </pre>
+        </li>
+    </ol>
+    
+    <div class="nav-buttons">
+        <button onclick="location.href='video.html'">Assista ao Vídeo</button>
+        <button onclick="location.href='audio.html'">Ouça o Áudio</button>
+    </div>
+</body>
+</html>

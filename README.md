@@ -1,2 +1,1 @@
-# Trabalho-ICC
- Git Tutorial
+# TrabalhoFinalICC

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tutorial Git</title>
+    <title>Git Tutorial</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -29,11 +29,70 @@
         .nav-buttons button:hover {
             background-color: #45a049;
         }
+        .intro-image {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
-    <h1>Tutorial Git</h1>
-    <p>Bem-vindo ao tutorial de Git. Use os links abaixo para aprender mais.</p>
+    <img src="https://miro.medium.com/v2/resize:fit:1125/0*CpxR8zt1z6vZDorB.png" alt="Git Workflow" class="intro-image">
+    <h1>Como usar o sistema de controle de versões Git</h1>
+    
+    <h2>Introdução</h2>
+    <p>Git é um sistema de controle de versão distribuído usado para rastrear alterações no código-fonte durante o desenvolvimento de software. Ele é projetado para coordenar o trabalho entre programadores, mas pode ser usado para rastrear alterações em qualquer conjunto de arquivos.</p>
+    
+    <h2>Por que usar GitHub?</h2>
+    <p>Se você é desenvolvedor, estudante de programação ou alguém que gosta de criar e colaborar em projetos de software, o GitHub é uma ferramenta essencial que pode transformar a forma como você trabalha. Aqui estão alguns motivos inspiradores para começar a usar o GitHub hoje:</p>
+    
+    <h3>1. Colaboração Global</h3>
+    <p>No GitHub, você não está limitado pelos limites geográficos. Você pode colaborar com desenvolvedores de todo o mundo, contribuindo para projetos de código aberto ou trabalhando em equipe com colegas. A colaboração no GitHub é facilitada por suas ferramentas de versionamento, revisão de código e integração contínua.</p>
+    
+    <h3>2. Controle de Versão Eficiente</h3>
+    <p>Nunca mais perca o controle das versões do seu código. Com o GitHub, você pode rastrear cada alteração feita em seu projeto, reverter para versões anteriores e entender o histórico completo do desenvolvimento. Isso não só aumenta a segurança do seu código, mas também a confiança em experimentações e melhorias.</p>
+    
+    <h3>3. Portfólio Profissional</h3>
+    <p>Ter um perfil no GitHub bem organizado e atualizado é como ter um portfólio vivo das suas habilidades e projetos. Potenciais empregadores e colaboradores podem ver diretamente o seu trabalho, desde o código até as discussões e revisões, proporcionando uma visão clara de suas competências e ética de trabalho.</p>
+    
+    <h3>4. Aprendizado Contínuo</h3>
+    <p>GitHub é uma plataforma onde você pode aprender continuamente. Explore repositórios de outros desenvolvedores, contribua para projetos de código aberto, e absorva conhecimento através de exemplos práticos e revisões de código. A comunidade GitHub é rica em recursos educativos e oportunidades de aprendizado.</p>
+    
+    <h3>5. Automação e Integração</h3>
+    <p>Aproveite as capacidades de integração e automação do GitHub. Utilize GitHub Actions para automatizar seus fluxos de trabalho, testes e implementações. Conecte-se com outras ferramentas e serviços, como CI/CD, para tornar seu processo de desenvolvimento mais eficiente e ágil.</p>
+    
+    <h3>6. Compartilhamento e Visibilidade</h3>
+    <p>Compartilhe seus projetos com o mundo e ganhe visibilidade. Quer você esteja trabalhando em um projeto pessoal, um aplicativo revolucionário ou contribuindo para uma grande iniciativa de código aberto, GitHub é o palco perfeito para mostrar suas criações e impactar a comunidade tecnológica.</p>
+    
+    <p>Lembre-se, cada repositório que você cria, cada commit que você faz, e cada colaboração que você realiza no GitHub é um passo em direção ao crescimento pessoal e profissional. Comece hoje e veja como o GitHub pode transformar sua jornada de desenvolvimento!</p>
+    
+    <h2>Como usar o Git?</h2>
+    <ol>
+        <li><strong>Instalação do Git:</strong> Baixe e instale o Git a partir do site oficial: <a href="https://git-scm.com/" target="_blank">git-scm.com</a>.</li>
+        <li><strong>Configuração Inicial:</strong> Configure seu nome de usuário e email.
+            <pre>
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@example.com"
+            </pre>
+        </li>
+        <li><strong>Iniciar um Repositório:</strong> Crie um novo repositório ou clone um repositório existente.
+            <pre>
+git init  # Para criar um novo repositório
+git clone https://github.com/usuario/repo.git  # Para clonar um repositório existente
+            </pre>
+        </li>
+        <li><strong>Fazer alterações e Comitar:</strong> Adicione arquivos ao repositório e comite suas mudanças.
+            <pre>
+git add arquivo.txt  # Para adicionar um arquivo
+git commit -m "Mensagem de commit"  # Para comitar as mudanças
+            </pre>
+        </li>
+        <li><strong>Enviar para o Repositório Remoto:</strong> Envie suas mudanças para o repositório remoto.
+            <pre>
+git push origin main  # Para enviar para a branch principal
+            </pre>
+        </li>
+    </ol>
+    
     <div class="nav-buttons">
         <button onclick="location.href='video.html'">Assista ao Vídeo</button>
         <button onclick="location.href='audio.html'">Ouça o Áudio</button>
